@@ -1,8 +1,3 @@
-"""
-    @author: Stagnant09
-    @github: https://github.com/Stagnant09
-"""
-
 import random, time, math
 
 class Club:
