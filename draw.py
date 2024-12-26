@@ -101,8 +101,8 @@ def draw_valid(draw):
     return valid
 
 
-POT1_ = [Club("Frazer", 1), Club("Lynbrook", 1), Club("Lakeside", 1), Club("Mission San Jose", 1), Club("Amador Valley", 1), Club("University", 1), Club("lexington", 1), Club("Palo Alto", 1), Club("Mira Loma", 1), Club("Middleton", 1)]
-POT2_ = [Club("TJHSST", 2), Club("Foothill", 2), Club("ASFA", 2), Club("Wayzata", 2), Club("Clements", 2), Club("Canyon Crest", 2), Club("WWPS", 2), Club("Ward Melville", 2), Club("Saratoga", 2), Club("Interlake", 2)]
+POT1_ = [Club("Frazer", 1), Club("Lynbrook", 1), Club("Lakeside", 1), Club("Canyon Crest", 1), Club("Amador Valley", 1), Club("University", 1), Club("Lexington", 1), Club("Palo Alto", 1), Club("Mira Loma", 1), Club("TJHSST", 1)]
+POT2_ = [Club("Middleton", 2), Club("Foothill", 2), Club("ASFA", 2), Club("Wayzata", 2), Club("Clements", 2), Club("Mission San Jose", 2), Club("WWPS", 2), Club("Ward Melville", 2), Club("Saratoga", 2), Club("Interlake", 2)]
 POT3_ = [Club("Stuyvesant", 3), Club("OCSA", 3), Club("Winston Churchill", 3), Club("Tokay", 3), Club("Hunter", 3), Club("JP Stevens", 3), Club("PRISMS", 3), Club("Arcadia", 3), Club("Dulles", 3), Club("Blair", 3)]
 draw = Draw(POT1_, POT2_, POT3_)
 draw.execute_draw()
